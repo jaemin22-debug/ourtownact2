@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Town Act 2 Reading Comprehension Quiz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #d35400;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 10px;
+        }
+        .quiz-description {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 5px solid #e67e22;
+            background-color: #fafafa;
+        }
+        .question-text {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .excerpt {
+            font-style: italic;
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: block;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #d35400;
+        }
+        #result {
+            margin-top: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 22px;
+            color: #2c3e50;
+            padding: 15px;
+            background-color: #e8f8f5;
+            border-radius: 4px;
+            display: none;
+        }
+        u { text-decoration: underline; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Our Town: Act 2 (Love and Marriage) Quiz</h1>
+        <p class="quiz-description">Answer all 10 questions and click 'Submit' at the bottom to check your total score.</p>
+        
+        <form id="quizForm">
+            <div class="question">
+                <span class="question-text">1. What is the main title and core theme of Act 2 as introduced by the Stage Manager?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a"> a) Daily Life and Chores</li>
+                    <li><input type="radio" name="q1" value="b"> b) Love and Marriage</li>
+                    <li><input type="radio" name="q1" value="c"> c) Death and Eternity</li>
+                    <li><input type="radio" name="q1" value="d"> d) War and Peace</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">2. Fill in the blank to complete the common idiom meaning "to get married" used in the context of George and Emily's wedding:</span>
+                <span class="excerpt">"Almost the whole town has turned out to see these two young people ________ the knot."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> a) tie</li>
+                    <li><input type="radio" name="q2" value="b"> b) make</li>
+                    <li><input type="radio" name="q2" value="c"> c) loose</li>
+                    <li><input type="radio" name="q2" value="d"> d) hold</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">3. Complete the Stage Manager's statement about the ancient and universal history of marriage rituals:</span>
+                <span class="excerpt">"This is a good wedding, but people have been doing it since the ________."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> a) renaissance</li>
+                    <li><input type="radio" name="q3" value="b"> b) last century</li>
+                    <li><input type="radio" name="q3" value="c"> c) caveman</li>
+                    <li><input type="radio" name="q3" value="d"> d) discovery of America</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">4. At the beginning of Act 2, the Stage Manager says: "Nature's been <u>contriving</u> to make a perfect day." What is the closest meaning to the underlined word in this context?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> a) failing completely</li>
+                    <li><input type="radio" name="q4" value="b"> b) managing and planning artfully</li>
+                    <li><input type="radio" name="q4" value="c"> c) destroying quietly</li>
+                    <li><input type="radio" name="q4" value="d"> d) complaining loudly</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">5. Who says the following lines, loudly weeping during the wedding ceremony because she is so touched by their youth?</span>
+                <span class="excerpt">"Don't they look beautiful? Oh, I always cry at weddings... I do hope they’ll be happy."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q5" value="a"> a) Mrs. Gibbs</li>
+                    <li><input type="radio" name="q5" value="b"> b) Emily Webb</li>
+                    <li><input type="radio" name="q5" value="c"> c) Mrs. Webb</li>
+                    <li><input type="radio" name="q5" value="d"> d) Mrs. Soames</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">6. When Emily confronts George about how his character has changed because of baseball, she says:</span>
+                <span class="excerpt">"You've become <u>stuck-up</u> and conceited, and all the girls are saying so." What does the underlined word mean?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q6" value="a"> a) Arrogant and snobbish</li>
+                    <li><input type="radio" name="q6" value="b"> b) Humble and modest</li>
+                    <li><input type="radio" name="q6" value="c"> c) Generous and kind</li>
+                    <li><input type="radio" name="q6" value="d"> d) Shy and introverted</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">7. Who says the following lines to Julia (Mrs. Gibbs) on the morning of George's wedding, recalling his own fear on his wedding day?</span>
+                <span class="excerpt">"Julia, I was scared to death... I thought I'd made a mistake and that I was the most miserable creature alive."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q7" value="a"> a) George Gibbs</li>
+                    <li><input type="radio" name="q7" value="b"> b) Mr. Webb</li>
+                    <li><input type="radio" name="q7" value="c"> c) Dr. Gibbs</li>
+                    <li><input type="radio" name="q7" value="d"> d) Simon Stimson</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">8. In the stage directions describing the heavy morning rain, which word fits best?</span>
+                <span class="excerpt">"It has been raining heavily... and the garden is ________ with water."</span>
+                <ul class="options">
+                    <li><input type="radio" name="q8" value="a"> a) dried</li>
+                    <li><input type="radio" name="q8" value="b"> b) drenched</li>
+                    <li><input type="radio" name="q8" value="c"> c) vanished</li>
+                    <li><input type="radio" name="q8" value="d"> d) hardened</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">9. When George tries to visit Emily on the morning of the wedding, Mrs. Webb stops him, saying it would <u>"fly in the face of custom."</u> What does this underlined idiom mean?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q9" value="a"> a) To accept a tradition happily</li>
+                    <li><input type="radio" name="q9" value="b"> b) To celebrate a new law</li>
+                    <li><input type="radio" name="q9" value="c"> c) To change your clothing</li>
+                    <li><input type="radio" name="q9" value="d"> d) To completely go against a tradition or rule</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <span class="question-text">10. During the drugstore scene, Emily says: "I always expect a man to be perfect and I think George Gibbs ought to be <u>it</u>." What does the pronoun "<u>it</u>" grammatically refer to?</span>
+                <ul class="options">
+                    <li><input type="radio" name="q10" value="a"> a) perfect</li>
+                    <li><input type="radio" name="q10" value="b"> b) a baseball player</li>
+                    <li><input type="radio" name="q10" value="c"> c) a husband</li>
+                    <li><input type="radio" name="q10" value="d"> d) advanced</li>
+                </ul>
+            </div>
+
+            <button type="button" class="submit-btn" onclick="checkQuizScore()">Submit Quiz</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function checkQuizScore() {
+            // Correct answer map matching the strict text
+            const correctAnswers = {
+                q1: 'b', q2: 'a', q3: 'c', q4: 'b', q5: 'd',
+                q6: 'a', q7: 'c', q8: 'b', q9: 'd', q10: 'a'
+            };
+            
+            let userScore = 0;
+            const totalQuestions = 10;
+            const form = document.getElementById('quizForm');
+            
+            for (let i = 1; i <= totalQuestions; i++) {
+                const questionRadioGroup = form['q' + i];
+                
+                for (let j = 0; j < questionRadioGroup.length; j++) {
+                    if (questionRadioGroup[j].checked) {
+                        if (questionRadioGroup[j].value === correctAnswers['q' + i]) {
+                            userScore++;
+                        }
+                    }
+                }
+            }
+            
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = "Quiz Submitted! Your Total Score: " + userScore + " / " + totalQuestions;
+            
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
